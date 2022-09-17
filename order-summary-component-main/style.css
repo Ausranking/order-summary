@@ -1,0 +1,137 @@
+body {
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+
+.card {
+  height: 520px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+.localbckg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 220px;
+  background-image: url(./images/illustration-hero.svg);
+}
+
+.globalbckg {
+  padding: 10px;
+  background-color: white;
+  height: 300px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.head {
+  font-size: 19px;
+  font-family: serif;
+  font-weight: 900;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+
+.summpara {
+  font-size: 14px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.submenu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 63%;
+  max-height: 55px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 9px;
+  margin: 10px auto;
+}
+
+#submenulogo {
+  height: 38px;
+  margin-left: 10px;
+}
+
+li h2 {
+  font-size: 12px;
+  color: hsl(223, 47%, 23%);
+}
+
+li {
+  list-style: none;
+  font-size: 12px;
+  margin-left: -20px;
+  line-height: 8px;
+}
+
+.submenu a {
+  color: hsl(245, 75%, 52%);
+  position: relative;
+  right: -35px;
+  font-size: 12px;
+}
+
+.action {
+  background-color: hsl(245, 75%, 52%);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.actionbtn {
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.actionbtn a {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#return {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px auto;
+}
+
+#return a {
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.action:hover {
+  cursor: pointer;
+  background: hsl(255, 77%, 57%);
+}
+
+#return a:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+  font-weight: 800;
+}
+
+.submenu a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(224, 23%, 55%);
+}
